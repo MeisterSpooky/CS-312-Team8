@@ -119,3 +119,9 @@ body {
       page-break-inside: avoid;
     }
   }
+#color-col-left {
+  width: 20%;
+}
+#color-col-right {
+  width: 80%;
+}
