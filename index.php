@@ -34,9 +34,8 @@
     }
     ?>
   </main>
-  
-  <footer>
+</body>
+<footer>
     <p>&copy; <?php echo date('Y'); ?> Fictitious Company. All rights reserved.</p>
   </footer>
-</body>
 </html>
