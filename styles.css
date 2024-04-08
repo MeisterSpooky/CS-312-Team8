@@ -3,11 +3,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    height: 100%;
   }
   
   header {
-    background-color: #32014f;
-    color: #fff;
+    background-color: #56B4E9;
+    color: #D55E00;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -27,11 +28,15 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2;
+    background-color: #009E73;
   }
   
   nav li {
     display: inline-block;
+  }
+
+  nav li:hover {
+    background-color: #0072B2;
   }
   
   nav a {
@@ -62,6 +67,13 @@ body {
     border-radius: 50%;
     margin-right: 20px;
   }
+
+  #companyLogo {
+    width: 10%;
+    height: 10%;
+    object-fit: cover;
+    object-position: 100% 0;
+  }
   
   footer {
     position: fixed;
@@ -69,8 +81,8 @@ body {
     bottom: 0;
     width: 100%;
     text-align: center;
-    background-color: #32014f;
-    color: #fff;
+    background-color: #56B4E9;
+    color: #D55E00;
 
   }
   
