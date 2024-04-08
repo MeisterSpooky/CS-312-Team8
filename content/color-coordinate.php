@@ -84,7 +84,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['rows-columns']) && iss
                 const rcTable = document.getElementById('rc-table');
 
                 const printWindow = window.open('', '_blank');
-                // For some reason it's not linking to the stylesheet as of right now including styling here.
+                // For some reason it's not linking to the stylesheet as of right now. So i'm including styling here.
                 printWindow.document.write(`
                 <html>
                     <head>
