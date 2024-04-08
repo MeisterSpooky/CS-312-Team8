@@ -8,7 +8,7 @@
 <body>
   <header>
     <h1>Fictitious Company</h1>
-    <img src="logo.png" alt="Company Logo">
+    <img id="companyLogo" src="./content/images/company.png" alt="Company Logo">
   </header>
   
   <?php include 'content/navbar.php'; ?>
